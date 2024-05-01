@@ -1,0 +1,572 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.logo {
+    height: 4.8vh;
+    justify-content: center;
+    padding-left: 256px;
+    padding-top: 6px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #454545;
+    height: 2.95vw;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1200;
+}
+
+.search {
+    height: 16px;
+    margin-top: 0.86vw;
+    margin-left: 2.85vw;
+    cursor: pointer;
+}
+
+
+.shopping{
+    height: 25px;
+    margin-top: 0.60vw;
+    margin-left: 2.85vw;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+    padding-top: 0.99vw;
+    margin-left: 2.74vw;
+    font-size: 12px;
+
+}
+
+.mid {
+    background-color: rgb(29, 29, 31);
+    height: 2.6vw;
+    position: relative;
+    padding-left: 30.5vw;
+    padding-top: 0.80vw;
+    color: rgb(245, 245, 245);
+    font-size: 0.90em;
+    font-weight: 300;
+
+}
+
+.shop {
+    text-decoration: none;
+    font-size: 1em;
+    color: rgb(10, 108, 206);
+    margin-left: 0vw;
+}
+
+.laptop {
+    height: 580px;
+    background-color: rgb(245, 245, 247);
+    background-image: url(macbook\ air\ m5.png);
+    background-repeat: no-repeat;
+    background-position: center 160px;
+    padding-left: 30vw;
+
+}
+
+.macbookair {
+    padding-top: 4vw;
+    padding-left: 8vw;
+    font-size: 50px;
+
+}
+
+.m3 {
+    padding-top: 0.40vw;
+    padding-left: 9.3vw;
+    font-size: 1.7em;
+}
+
+.learn {
+    margin-left: 10.5vw;
+    background-color: rgb(0, 119, 237);
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    margin-top: 1vw;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.buy {
+    margin-left: 1vw;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 119, 237);
+    font-size: 1.1em;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.buy:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.iphone15pro {
+    height: 590px;
+    background-image: url("iphone15pro.png");
+    background-repeat: no-repeat;
+    background-position: 12.5vw -2.00vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.pro {
+    color: rgb(245, 245, 247);
+    font-size: 3em;
+    font-style: bold;
+    font-weight: 600;
+    padding-left: 39vw;
+    padding-top: 2.9vw;
+
+}
+
+.Titanium {
+    position: absolute;
+    color: rgb(245, 245, 247);
+    font-size: 1.7em;
+
+    font-style: bold;
+    font-weight: 200;
+    padding-left: 34vw;
+    margin-top: 0.5vw;
+
+}
+
+.more {
+    margin-left: 40vw;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    margin-top: 3.5vw;
+    height: 40px;
+    font-size: 1.1em;
+    width: 120px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.me {
+    margin-left: 1vw;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 119, 237);
+    font-size: 1.1em;
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.me:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.iphone15 {
+    height: 600px;
+    width: 1518px;
+    background-color: rgb(245, 245, 247);
+    background-image: url("iphone15.png");
+    background-repeat: no-repeat;
+    background-position: center -17vw;
+}
+
+.new {
+    margin-top: 0.5vw;
+}
+
+.yaad {
+    margin-left: 39vw;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    margin-top: 1vw;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.kharid {
+    margin-left: 1vw;
+    color: rgb(0, 119, 237);
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    border-color: rgb(0, 119, 237);
+}
+
+.kharid:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.iphone {
+    padding-left: 38vw;
+    padding-top: 4vw;
+    font-size: 3.5em;
+    font-weight: 550;
+}
+
+.new {
+    padding-left: 31vw;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+.do {
+    margin-left: 38vw;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+}
+
+.products {
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(251, 251, 251);
+    padding: 1vw 0vw;
+    overflow: hidden;
+    gap: 1vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.img {
+    height: 88vh;
+    width: 47%;
+    position: relative;
+
+}
+
+.img>img {
+    height: 100%;
+    width: 100%;
+}
+
+.img>.applewatch {
+    position: absolute;
+    z-index: 999;
+    height: 3.5vw;
+    width: 10vw;
+    left: 18vw;
+    top: 4.1vw;
+
+}
+
+.smarter {
+    position: absolute;
+    color: white;
+    left: 18vw;
+    z-index: 999;
+    top: 8.5vw;
+    left: 15vw;
+    font-size: 1.36em;
+    font-weight: 300;
+
+}
+
+.mor {
+    position: absolute;
+    z-index: 999;
+    top: 9.9vw;
+    left: 17vw;
+    font-size: 0.91em;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    margin-top: 1vw;
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+
+}
+
+.lo {
+    position: absolute;
+    z-index: 999;
+    top: 10.9vw;
+    left: 25.2vw;
+    color: rgb(0, 119, 237);
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 0.91em;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 119, 237);
+}
+
+.lo:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.pad {
+    color: black;
+    position: absolute;
+    z-index: 999;
+    top: 3.7vw;
+    left: 20vw;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.love {
+    position: absolute;
+    z-index: 999;
+    color: rgb(29, 29, 29);
+    top: 7vw;
+    left: 14vw;
+    font-weight: 300;
+}
+
+.ipadmore {
+    position: absolute;
+    z-index: 999;
+    top: 9.5vw;
+    left: 16vw;
+    font-size: 0.91em;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.ipadbuy {
+    position: absolute;
+    z-index: 999;
+    top: 9.6vw;
+    left: 24vw;
+    color: rgb(0, 119, 237);
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 0.91em;
+    background-color: rgb(251, 251, 251);
+    border-color: rgb(0, 119, 237)
+}
+
+.ipadbuy:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.air {
+    position: absolute;
+    z-index: 999;
+    font-size: 2.5em;
+    top: 4.5vw;
+    left: 16vw;
+    color: white;
+}
+
+.audio {
+    position: absolute;
+    z-index: 999;
+    font-size: 1.3em;
+    color: white;
+    top: 7.8vw;
+    left: 15vw;
+    font-weight: 250;
+}
+
+.airpodsmore {
+    position: absolute;
+    z-index:1200;
+    top: 10vw;
+    left: 17.6vw;
+    font-size: 0.91em;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.airpodsbuy {
+    position: absolute;
+    z-index: 999;
+    top: 10vw;
+    left: 25.6vw;
+    color: rgb(0, 119, 237);
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 0.91em;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 119, 237)
+}
+
+.airpodsbuy:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.macbookpro {
+    position: absolute;
+    z-index: 999;
+    font-size: 2.3em;
+    top: 4.5vw;
+    left: 16vw;
+    color: rgb(0, 0, 0);
+    letter-spacing: normal;
+    font-weight: 550;
+}
+
+.mind {
+    position: absolute;
+    z-index: 999;
+    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    top: 7.5vw;
+    left: 15.6vw;
+    font-weight: 300;
+}
+
+.mindbook {
+    position: absolute;
+    z-index: 999;
+    top: 10vw;
+    left: 17vw;
+    font-size: 0.91em;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.probuy {
+    position: absolute;
+    z-index: 999;
+    top: 10vw;
+    left: 25vw;
+    color: rgb(0, 119, 237);
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 0.91em;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 119, 237);
+}
+
+.probuy:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.homepod {
+    position: absolute;
+    z-index: 999;
+    font-size: 2.5em;
+    top: 6vw;
+    color: rgb(0, 0, 0);
+    left: 16vw;
+}
+
+.minimore {
+    position: absolute;
+    z-index: 999;
+    top: 10vw;
+    left: 18.6vw;
+    font-size: 0.91em;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.minibuy {
+    position: absolute;
+    z-index: 999;
+    top: 10vw;
+    left: 26.6vw;
+    color: rgb(0, 119, 237);
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 0.91em;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 119, 237);
+}
+
+.minibuy:hover {
+    color: white;
+    box-shadow: inset 12rem 0 0 0 rgb(0, 113, 227);
+}
+
+.upgrade {
+    position: absolute;
+    z-index: 999;
+    color: rgb(0, 0, 0);
+    top: 9vw;
+    left: 13vw;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.estimate {
+    position: absolute;
+    z-index: 999;
+    top: 11.5vw;
+    left: 19vw;
+    font-size: 0.91em;
+    background-color: rgb(0, 119, 237);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    border-color: rgb(0, 119, 237);
+}
+
+.trade {
+    position: absolute;
+    z-index: 999;
+    font-size: 2.3em;
+    font-weight: 600;
+    top: 5.6vw;
+    color: rgb(0, 0, 0);
+    left: 19vw;
+    word-spacing: -0.3vw;
+}
+
+.copyright {
+    height: 200px;
+    width: 1900px;
+    background-color: black;
+    padding-left: 38vw;
+    padding-top: 2vw;
+    color: azure;
+}
+
+.about {
+    font-size: 2.5em;
+    font-family: cursive;
+}
+
+.name .year .email {
+    padding-top: 0.1vw;
+    font-size: 2em;
+    font-family: serif;
+}
+ 
